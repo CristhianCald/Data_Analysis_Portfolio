@@ -1,61 +1,60 @@
 Descripción
 
-Dashboard desarrollado en Microsoft Excel para analizar el desempeño operativo y comercial de un restaurante mediante tablas dinámicas, gráficos y segmentadores.
+Dashboard desarrollado en Tableau para analizar el desempeño comercial de una empresa mediante indicadores de ventas, pedidos y rentabilidad por categoría y segmento.
 
 Objetivo
 
-Monitorear el comportamiento de las ventas y evaluar el desempeño por tipo de servicio, sede y categorías del menú.
+Centralizar indicadores comerciales que permitan comparar el comportamiento de ventas entre categorías y segmentos de clientes.
 
 Dataset
 
-El dataset registra información operativa de pedidos.
+El conjunto de datos contiene información comercial relacionada con ventas.
 
-Variables principales:
+Principales variables:
 
-Orden
-Fecha
-Hora
-Sede
-Tipo de servicio
+Pedido
+Cliente
+Producto
 Categoría
+Subcategoría
+Segmento
+Región
+País
 Cantidad
-Valor bruto
 Descuento
-Tiempo de preparación
-Medio de pago
-Estado del pedido
-Calificación
+Ganancia
+Ventas
+Fecha del pedido
+Fecha de envío
 Proceso ETL
 
-El tratamiento de datos incluyó:
+Durante la preparación del dataset se realizaron:
 
-Validación del formato de fechas y horas.
-Conversión de valores monetarios.
-Revisión de registros duplicados.
+Validación de tipos de datos.
+Conversión de fechas.
+Verificación de registros duplicados.
+Revisión de valores nulos.
 Limpieza de espacios y caracteres especiales.
-Validación de registros nulos.
-Estandarización de categorías.
-Revisión de estadísticas descriptivas (promedio, mediana y moda).
+Validación de consistencia entre dimensiones.
+Análisis estadístico de variables numéricas utilizando promedio, mediana y moda.
 Dashboard
 
-Incluye visualizaciones de:
+El tablero presenta:
 
-Ventas por ciudad.
-Ventas por tipo de servicio.
-Distribución por tipo de entrega.
-Tendencia mensual.
-Ventas por categoría.
-Indicadores generales de ventas, descuentos y calificación.
+Total de pedidos.
+Total de ventas.
+Ventas por categoría y segmento.
+Comparación entre ventas y ganancias.
+Distribución de ganancias por categoría.
 KPIs
+Total pedidos
 Total ventas
-Total descuentos
-Calificación promedio
+Ganancias
 Ventas por categoría
-Ventas por sede
-Ventas por servicio
+Ventas por segmento
+Rentabilidad
 Tecnologías utilizadas
+Tableau Desktop
+Tableau Calculated Fields
+Dashboards interactivos
 Microsoft Excel
-Tablas dinámicas
-Segmentadores
-Gráficos dinámicos
-Funciones de Excel
