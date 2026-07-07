@@ -1,34 +1,30 @@
-Descripción
-
+# Dashboard ventas restaurante
 Dashboard desarrollado en Microsoft Excel para analizar el desempeño operativo y comercial de un restaurante mediante tablas dinámicas, gráficos y segmentadores.
 
-Objetivo
+## Dashboard
+![Dashboard](Excel.png)
 
-Monitorear el comportamiento de las ventas y evaluar el desempeño por tipo de servicio, sede y categorías del menú.
+## Objetivo
+✔ Analizar ventas
+✔ Evaluar sedes
+✔ Comparar categorías
+✔ Identificar tendencias
 
-Dataset
+## Dataset
+El dataset registra información operativa de pedidos, integrando datos formatos .
 
-El dataset registra información operativa de pedidos.
+| Variable    | Tipo    |
+| ----------- | ------- |
+| Orden       | Texto   |
+| Fecha       | Fecha   |
+| Hora        | Hora    |
+| Sede        | Texto   |
+| Categoría   | Texto   |
+| Cantidad    | Número  |
+| Valor Bruto | Decimal |
 
-Variables principales:
 
-Orden
-Fecha
-Hora
-Sede
-Tipo de servicio
-Categoría
-Cantidad
-Valor bruto
-Descuento
-Tiempo de preparación
-Medio de pago
-Estado del pedido
-Calificación
-Proceso ETL
-
-El tratamiento de datos incluyó:
-
+##El tratamiento de datos incluyó:
 Validación del formato de fechas y horas.
 Conversión de valores monetarios.
 Revisión de registros duplicados.
