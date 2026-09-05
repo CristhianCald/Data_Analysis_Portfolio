@@ -2,6 +2,7 @@
 Dashboard desarrollado en Tableau para analizar el desempeño comercial de una empresa mediante indicadores de ventas, pedidos y rentabilidad por categoría y segmento.
 
 ![Dashboard](Dataset_Tableau.png)
+![Dashboard](Tableau.png)
 
 ## Objetivo
 ✔ Centralizar indicadores comerciales que permitan comparar el comportamiento de ventas entre categorías y segmentos de clientes.
