@@ -4,7 +4,7 @@ Dashboard interactivo desarrollado en Power BI para analizar el comportamiento d
 ## Propósito
 Desarrollar un dashboard que permita explorar el comportamiento de las ventas desde diferentes perspectivas, facilitando el análisis por clientes, productos, regiones y periodos de tiempo.
 
-# Dataset
+## Dataset
 El conjunto de datos está compuesto por tres tablas relacionadas mediante un modelo dimensional.
 
 ### Customers
@@ -29,7 +29,7 @@ Price
 TotalValue
 Proceso ETL
 
-### Descripción
+## Descripción
 Se realizó el proceso de preparación de datos utilizando Power Query.
 
 * Las principales actividades fueron:
@@ -53,22 +53,22 @@ Se realizó el proceso de preparación de datos utilizando Power Query.
 - Detalle de clientes.
 
 ## Productos
-Ventas por categoría.
-Análisis de influencia sobre precios.
-Comparación entre categorías.
-Visualización de tendencias comerciales.
+- Ventas por categoría.
+- Análisis de influencia sobre precios.
+- Comparación entre categorías.
+- Visualización de tendencias comerciales.
 
-Transacciones
-Evolución mensual del valor total de ventas.
-KPIs
-Total de ventas
-Cantidad de clientes
-Ventas por categoría
-Ventas por región
-Evolución mensual
-Valor total de transacciones
+## Transacciones
+- Evolución mensual del valor total de ventas.
+- KPIs
+- Total de ventas
+- Cantidad de clientes
+- Ventas por categoría
+- Ventas por región
+- Evolución mensual
+- Valor total de transacciones
 
-Tecnologías utilizadas
+## Tecnologías utilizadas
 Power BI
 Power Query
 DAX
